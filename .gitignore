@@ -1,0 +1,24 @@
+﻿# Ignore virtual environments
+venv/
+.venv/
+env/
+**/venv/
+
+
+deep-learning/
+# Ignore datasets & large data files
+dataset/
+datasets/
+data/
+*.csv
+*.json
+*.h5
+*.pkl
+*.zip
+*.tar.gz
+
+# Ignore Jupyter checkpoints & IDE/Anaconda folders
+.ipynb_checkpoints/
+anaconda_projects/
+.vscode/
+.idea/
