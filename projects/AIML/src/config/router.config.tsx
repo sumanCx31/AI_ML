@@ -5,6 +5,7 @@ import SimpleForm from "../modules/iris-flower";
 import NepalHousePredictor from "../modules/house-price-prediction";
 import LoanStatusPredictor from "../modules/loan_status_predictor";
 import DiabetesRiskClassifier from "../modules/diabetes-test";
+import SentimentChecker from "../modules/sentimental-analysis";
 
 const routerConfig = createBrowserRouter([
   { path: "/", Component: DashboardGrid },
@@ -12,6 +13,7 @@ const routerConfig = createBrowserRouter([
   { path: "house-price-prediction", Component: NepalHousePredictor },
   { path: "loan-status-predictor", Component: LoanStatusPredictor },
   { path: "diabetes-test", Component: DiabetesRiskClassifier },
+  { path: "sentiment-analysis", Component: SentimentChecker },
   {
     path: "*",
     Component: NotFound,
